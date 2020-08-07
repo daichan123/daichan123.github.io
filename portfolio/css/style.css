@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body{
+  width: 100%;
+  height: auto;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.0) 10%, rgba(255, 255, 255, 1.0) 90%),url(../img/body_background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar_right{
+  margin: 0 0 0 auto;
+}
+
+.My_top{
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url(../img/top_background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width:992px) {
+  .My_top {
+    height: 100vh;
+  }
+  .My_top h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.My_about{
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.My_about img{
+  width: 60%;
+  height: 60%;
+  border-radius: 50%; 
+  border: 12px solid rgba(0,0,0,0.5);
+}
+
+.My_about div ul{
+  list-style-type: square;
+}
+
+.My_about div ul li{
+  margin-bottom: 20px;
+  color: #3B3C3D;
+}
+
+@media (max-width:992px) {
+  .My_about div ul li {
+    list-style-type: none;
+  }
+}
+
+.My_works{
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background-color: #1d809f;
+}
+
+.My_works .service-icon{
+  background-color: #fff;
+  color: #1d809f;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
+}
+
+.My_Links{
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.My_footer{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #c0c0c0;
+}
+
+.My_footer .service-icon{
+  background-color: #fff;
+  color: #1d809f;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
+}
